@@ -1,4 +1,4 @@
-// 1.21	2026-02-10T10:53:26.2431852	Item Models: tamersslowprogmod
+// 1.21	2026-02-12T10:45:39.7667086	Item Models: tamersslowprogmod
 9b2ac9ea170eef5c3ee51bb428b47d1d5dd56c28 assets/tamersslowprogmod/models/item/flint_axe.json
 3e9241a60fe9e00b21f79cabcaca3c591022286e assets/tamersslowprogmod/models/item/flint_axe_head.json
 1319a2311d76234820f03d68d8a5708f0d16434c assets/tamersslowprogmod/models/item/flint_hoe.json
@@ -13,3 +13,5 @@ beaeca98a6052494f9d6db1f001c4aaa77c03587 assets/tamersslowprogmod/models/item/fl
 390e923f5f467d8b94892a8b39e69999db01b041 assets/tamersslowprogmod/models/item/flint_sword_blade.json
 779ff00c2e06be27680e5f2d07e82eadd3f5d547 assets/tamersslowprogmod/models/item/plant_fibers.json
 8da1df22d74fa4e5bb19c5f25ddc488c044b543e assets/tamersslowprogmod/models/item/plant_string.json
+f0b2f9115bf746d21fb91a936c9c1075ca517a6c assets/tamersslowprogmod/models/item/rock.json
+650d8853a66532f1216faf6e7b9b8284a3dfcfdd assets/tamersslowprogmod/models/item/slate.json

@@ -13,7 +13,10 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(TamersSlowProgressionMod.MOD_ID);
 
     // Misc items (i.e. ingredients, etc.)
-
+    public static final DeferredItem<Item> ROCK = ITEMS.register("rock",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SLATE = ITEMS.register("slate",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PLANT_FIBERS = ITEMS.register("plant_fibers",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PLANT_STRING = ITEMS.register("plant_string",
@@ -66,6 +69,8 @@ public class ModItems {
     // All Items
 
     public static final List<DeferredItem<Item>> ALL_ITEMS = List.of(
+            ROCK,
+            SLATE,
             FLINT_SHARD,
             PLANT_FIBERS,
             PLANT_STRING,
@@ -79,6 +84,8 @@ public class ModItems {
     public static final List<DeferredItem<Item>> INGREDIENTS = List.of(
             FLINT_SHARD,
             PLANT_FIBERS,
+            ROCK,
+            SLATE,
             PLANT_STRING,
             FLINT_PICKAXE_HEAD,
             FLINT_AXE_HEAD,
